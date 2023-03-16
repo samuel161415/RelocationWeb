@@ -5,10 +5,11 @@ const atmFilter=(atms,result,atmIds)=>{
         let sensor=''
         let supply=''
         for(var i=0;i<val.fitness_array.length;i++){
-           if(i===0||i===1||i===2||i===3||i===5||i===6||i===7||i===8||i===18){
+           if(i===0||i===2||i===3||i===5||i===6||i===7||i===8||i===18){
                fitness+=val.fitness_array[i]
            }
            if(i===0||i===1||i===2||i===3||i===4||i===5||i===14||i===15){
+            if(val.sensor)
             sensor+=val.sensor_array[i]
            }
            if(i===0||i===1||i===2||i===3||i===4||i===5||i===15||i===20){
