@@ -6,7 +6,7 @@ const data=await Diebold_data.find().sort({_id:-1}).limit(1);
 
   
    return res.send(data[0])
-    // res.send(result)
+  
 
 })
 

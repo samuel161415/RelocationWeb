@@ -25,7 +25,7 @@ connectDB()
    setInterval(insertData,10000)
   
 
- app.use('/api',hardware)
+ app.use('/api',hardware) 
  app.use('/api',singleAtm)
  app.use('/api',user)
 
