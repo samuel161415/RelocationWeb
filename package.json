@@ -6,12 +6,13 @@
     "es7": "^1.0.8-beta.4",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
     "mongoose": "^7.0.1",
     "morgan": "^1.10.0"
   },
-  "name": "diebold",
+  "name": "relocation",
   "version": "1.0.0",
-  "description": "this is diebold monitoring",
+  "description": "this is atm relocation monitoring tool",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js"
